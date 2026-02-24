@@ -8,7 +8,7 @@ class Config:
         self.API_ID = 34526092
         self.API_HASH = "0de81a7870354f026d084985376becb0"
 
-        self.BOT_TOKEN = getenv("B")
+        self.BOT_TOKEN = getenv("BOT_TOKEN")
         self.MONGO_URL = "mongodb+srv://khargosh:khargosh@cluster0.2fimped.mongodb.net/?appName=Cluster0"
 
         self.LOGGER_ID = -1002843633996
@@ -18,7 +18,7 @@ class Config:
         self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 200000000000))
         self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 200000000000))
 
-        self.SESSION1 = getenv("S", None)
+        self.SESSION1 = getenv("SESSION", None)
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
