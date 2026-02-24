@@ -8,7 +8,7 @@ class Config:
         self.API_ID = 34526092
         self.API_HASH = "0de81a7870354f026d084985376becb0"
 
-        self.BOT_TOKEN = getenv("8512639516:AAEARNkbtgJQsgWpPpsxC4woZSXrhi8da7E")
+        self.BOT_TOKEN = getenv("B")
         self.MONGO_URL = "mongodb+srv://khargosh:khargosh@cluster0.2fimped.mongodb.net/?appName=Cluster0"
 
         self.LOGGER_ID = -1002843633996
@@ -18,7 +18,7 @@ class Config:
         self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 200000000000))
         self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 200000000000))
 
-        self.SESSION1 = getenv("BQIB5IkAv3JeyLExKg5ax49E8WhCYsm4EEvcv5zlY9_JsLq91ZOV64nxCtM94RWiK7H9IkgynPLnT9aQnU22lmlde-tyvXu4KecUWUwRTJfQmF38IYJEN6Y5atudNN-cVhcaQh-L9ADjjnxocMl6AF0q7Stm-wG5vFF1JGRjlgDSOvM1l_4A-LwFiy9lrkULMW2AyoQ6nEwAWx2Z4QzogkcciiAAEP4pkBGMZaEoiz45U2TxfIRauj9bvUMGdtMAU35OlzAwnkkSnaiovS7U6IexzjK9iqTbXIx1ijmXqyZOlKy1NIHXMxHU3S9Ik0BdkQTfurcWc6fZ4nSpDEdb8oefxqpVygAAAAHuQUkQAA", None)
+        self.SESSION1 = getenv("S", None)
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
